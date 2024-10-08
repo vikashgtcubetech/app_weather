@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather app</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive_style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <div class="card">
+        <div class="serch">
+            <input id="search_box" type="text" placeholder="Your city name" spellcheck="false">
+            <i onclick=checkWeather() class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <div class="home_title">
+            <span style="font-size: 30px;">
+                Search Your City
+            </span>
+            <br>
+            <span class="get_weather">
+                Get Weather
+            </span>
+        </div>
+        <div class="loading"><img src="images/loading-opaque.gif" alt=""></div>
+        <div class="city_not_found">
+            <h1>
+                City Not Found
+            </h1>
+        </div>
+        <div class="contant">
+            <div class="weather">
+                <div class="tem">
+                    <div class="tem-2">
+                        <h1 class="city">City</h1>
+                    </div>
+                    <div class="tem-1">
+                        <img class="weather_icon" src="" alt="">
+                        <div class="tem-11">
+                            <div>
+                                <p class="tempuser">Tempuser</p>
+                                <h1 class="temp">0 °C</h1>
+                            </div>
+                            <div>
+                                <p class="des">Description</p>
+                                <p class="description"></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="other_details">
+                <div class="hum">
+                    <img src="images/download-removebg-preview.png" alt="">
+                    <div>
+                        <h2 class="humidity"></h2>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="win">
+                    <img src="images/download__1_-removebg-preview.png" alt="">
+                    <div>
+                        <h2 class="wind"></h2>
+                        <p>Wind</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="js.js"></script>
+</body>
+</html>

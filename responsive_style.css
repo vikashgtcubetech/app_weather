@@ -1,0 +1,105 @@
+@media (min-width:768px) {
+    .loading img {
+        width: 100px;
+    }
+
+    .card {
+        background: linear-gradient(135deg, #00feba, #5b548a);
+        color: #fff;
+        margin: auto;
+        padding: 40px 35px;
+        text-align: center;
+    }
+
+    .serch {
+        width: 100%;
+    }
+
+    .fa-solid {
+        font-size: 30px;
+        color: black;
+    }
+
+    .tem-11 {
+        display: flex;
+        gap: 80px;
+    }
+
+    .tem-1 img {
+        width: 250px;
+        height: 200px;
+    }
+
+    .city {
+        font-size: 40px;
+    }
+
+    .get_weather {
+        color: #dbff10;
+    }
+
+
+}
+
+@media (min-width:992px) {
+    body {
+        background-color: #fff;
+    }
+
+    .card {
+        max-width: 70%;
+        background: linear-gradient(135deg, #00feba, #5b548a);
+        color: #fff;
+        margin: auto;
+        text-align: center;
+        padding: 10px 10px;
+    }
+
+    .serch {
+        width: 70%;
+        /* display: flex;
+        align-items: center;
+        margin: auto;
+        justify-content:space-around;
+        margin-bottom: 20px;
+        border-radius: 30px;
+        background-color: #fcf9f9; */
+    }
+
+    .tem-1 img {
+        width: 200px;
+        height: 150px;
+        margin-top: 0px;
+    }
+
+    .hum img {
+        width: 110px;
+        height: 60px;
+        text-align: center;
+        margin: 20px auto 10px;
+    }
+
+    .win img {
+        width: 110px;
+        height: 90px;
+        margin: auto;
+    }
+
+    .other_details {
+        margin-top: 0px;
+        display: flex;
+        gap: 70px;
+    }
+
+    .get_weather {
+        font-size: 20px;
+    }
+
+    .city {
+        font-size: 30px;
+    }
+
+    .tem-11 {
+        gap: 60px;
+    }
+}
