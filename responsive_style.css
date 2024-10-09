@@ -7,12 +7,11 @@
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: #fff;
         margin: auto;
-        padding: 40px 35px;
         text-align: center;
     }
 
     .serch {
-        width: 100%;
+        width: 90%;
     }
 
     .fa-solid {
@@ -31,41 +30,31 @@
     }
 
     .city {
-        font-size: 40px;
+        font-size: 50px;
+        color: #fff;
     }
 
     .get_weather {
         color: #dbff10;
     }
-
-
 }
 
 @media (min-width:992px) {
     body {
-        background-color: #fff;
+        background-color: #000;
     }
 
     .card {
-        max-width: 70%;
+        max-width: 90%;
         background: linear-gradient(135deg, #00feba, #5b548a);
         color: #fff;
         margin: auto;
         text-align: center;
-        padding: 10px 10px;
     }
 
     .serch {
         width: 70%;
-        /* display: flex;
-        align-items: center;
-        margin: auto;
-        justify-content:space-around;
-        margin-bottom: 20px;
-        border-radius: 30px;
-        background-color: #fcf9f9; */
     }
-
     .tem-1 img {
         width: 200px;
         height: 150px;

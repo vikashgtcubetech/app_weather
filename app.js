@@ -4,6 +4,7 @@ const loader = document.querySelector(".loading")
 const contant = document.querySelector(".contant")
 const weather_icon = document.querySelector(".weather_icon")
 const city_not_found = document.querySelector(".city_not_found");
+const home_title = document.querySelector(".home_title");
 
 
 async function checkWeather(event) {
@@ -36,6 +37,7 @@ async function checkWeather(event) {
         loader.style.display = "none";
         contant.style.display = "block"
         city_not_found.style.display = "none";
+        home_title.style.display = "none";
     }
     else {
         city_not_found.style.display = "flex";
